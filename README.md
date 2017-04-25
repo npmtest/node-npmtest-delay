@@ -1,6 +1,6 @@
 # npmtest-delay
 
-#### test coverage for  [delay (v2.0.0)](https://github.com/sindresorhus/delay#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-delay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-delay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-delay.svg)](https://travis-ci.org/npmtest/node-npmtest-delay)
+#### basic test coverage for  [delay (v2.0.0)](https://github.com/sindresorhus/delay#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-delay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-delay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-delay.svg)](https://travis-ci.org/npmtest/node-npmtest-delay)
 
 #### Delay a promise a specified amount of time
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-delay/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-delay/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-delay/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-delay/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-delay/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-delay/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-delay/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-delay/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-delay/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-delay/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-delay/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-delay/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
